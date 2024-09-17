@@ -15,12 +15,13 @@ public class capsuleScript : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(letterOne = 'G');
-        Debug.Log(letterTwo = 'U');
-        Debug.Log(letterThree = 'N');
-        Debug.Log(letterFour = 'N');
-        Debug.Log(letterFive = 'E');
-        Debug.Log(letterSix = 'R');
+        letterOne = 'G';
+        letterTwo = 'U';
+        letterThree = 'N';
+        letterFour = 'N';
+        letterFive = 'E';
+        letterSix = 'R';
+        Debug.Log("Gunner is spelled: " + letterOne + letterTwo + letterThree + letterFour + letterFive + letterSix);
 
     }
 
